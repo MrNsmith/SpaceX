@@ -1,0 +1,56 @@
+body {
+    color: whitesmoke;
+   background-color: black;
+
+}
+h1 {
+    font-size: 35px;
+    padding-bottom: 25px
+}
+h2 {
+    font-size: 30px;
+    padding-left: 15px
+}
+h3 {
+    padding-bottom: 15px;
+    
+}
+#learn {
+    color: ghostwhite;
+    height: 50px;
+    width: 125px;
+   background-color: black;
+}
+
+
+.main-header {
+   
+    height: 100px;
+    background-color: black;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 25px;
+    padding-top: 15px;
+    padding-right: 150px ;
+    
+}
+ .main-header nav {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+   flex-wrap: nowrap;
+   padding-right: 250px;
+ }
+
+ main {
+
+     height: 100px;
+     position: absolute;
+     display: inline;
+     justify-content: flex-end;
+     bottom: 100px;
+     left: 75px;
+ }
